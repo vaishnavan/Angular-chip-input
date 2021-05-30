@@ -1,0 +1,67 @@
+tag-input{
+    border: 1px solid rgb(18, 171, 236);
+}
+
+tag-input:focus{
+    border-bottom: none;
+}
+tag-input div{
+    border: none !important;
+    outline: none !important;
+}
+
+tag-input .tag__text{
+    background-color: blue !important;
+}
+.hello{
+    display: flex;
+}
+.form-group{
+    display: flex;
+    flex-wrap: wrap
+}
+.hello{
+    border: 1px solid blue;
+    width: 800px;
+    height: 30px;
+    overflow: auto;
+    /* cursor: pointer; */
+    padding: 5px;
+    font-size: 16px;
+}
+.roundedcorner .output{
+    background-color: blue;
+    padding: 3px 6px;
+    color: white;
+    margin: 0 3px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.hello input{
+    font-size: 16px;
+}
+
+
+::-webkit-scrollbar {
+    width: 3px;
+    height: 1;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+.hello input{
+    border: none;
+    outline: none;
+}

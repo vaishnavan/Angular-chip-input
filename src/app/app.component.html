@@ -1,0 +1,55 @@
+<div style="margin: 10px;" class="row">  
+  <div class="col-md-6">  
+      <div class="row">  
+          <!-- <button class="btn btn-success mr-2" style="width:120px;" type="submit" (click)="newOrCancel()">  
+            New User  
+          </button>   -->
+          <h3>Angular chip input selection</h3>
+        </div>  
+    <div class="form-group row mb-2">   
+      <!-- <div class="col-md-8">  
+        <input class="form-control" type="text" id="userName" placeholder="User Name" [(ngModel)]="userName"   
+        [disabled]="!isInsert" autofocus (keydown.enter)="skillsSetFocus()" #userNameRef/>  
+      </div>   -->
+    </div>  
+    <div class="form-group row mb-2">  
+      <div class="row mb-2">  
+        <div class="col-md-4"></div>  
+        <div class="col-md-8 hello">  
+          <div *ngFor="let skill of skills; let i = index" class="roundedcorner">  
+            <div class="output">
+              <span>{{skill}}</span>  
+              <span  style="font-size:18px;color:red;" (click)="dropSkill(i)">X</span> 
+            </div> 
+          </div>  
+          <div class="col-md-8">  
+            <input class="form-control" type="text" id="skillsSet" placeholder="skills"   
+            [(ngModel)]="skillsSet" (keydown.enter)="onSkillsSetKeydown()" #skillsSetRef/>  
+          </div> 
+        </div>
+      
+    </div>  
+      
+    </div>  
+    <!-- <div class="offset-md-4">  
+      <button class="btn btn-primary mr-2" style="width:80px;" type="submit" [disabled]="!isInsert || skills.length==0 || userName==null || userName==''" (click)="saveUser()">  
+        Save  
+      </button>  
+      <button class="btn btn-warning mr-2" style="width:80px;" type="submit" (click)="newOrCancel()">  
+          Cancel  
+        </button>  
+    </div>  
+  </div>  
+  <div class="col-md-3">  
+    <div class="card">  
+      <div class="card-header">  
+        Users List  
+      </div>  
+      <div class="card-body">  
+        <div *ngFor="let user of users">  
+          <a href="#" (click)="selectUser(user)">{{user.userName}}</a>  
+        </div>  
+      </div>  
+    </div>   -->
+  </div>  
+</div> 
